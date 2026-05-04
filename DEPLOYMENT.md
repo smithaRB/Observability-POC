@@ -64,8 +64,6 @@ This guide explains how to deploy the Incident Analyzer using Terraform, Docker,
 ## GitHub CI/CD Deployment
 This repository includes a GitHub Actions workflow at `.github/workflows/aws-terraform-docker-cicd.yml`.
 
-This deployment is designed to run from the `main` branch of the GitHub repo:
-`https://github.com/sharmasaket10/AWS_LLM-Powered-Incident-Analyzer---Dynatrace`.
 
 ### Required GitHub secrets
 - `AWS_ROLE_TO_ASSUME`
